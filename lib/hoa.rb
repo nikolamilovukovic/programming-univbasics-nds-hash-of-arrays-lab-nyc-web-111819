@@ -9,6 +9,7 @@ def add_character(show, name)
   show = :third_earthers
   name = "Snarf"
   show << name
+  add_character
   
   
   
