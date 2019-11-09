@@ -11,7 +11,6 @@ def add_character(show, name)
   
   
   
-  
   # add_character[show] << name
   # p show
   # p name
