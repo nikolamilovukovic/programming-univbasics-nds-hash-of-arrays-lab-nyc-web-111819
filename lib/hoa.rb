@@ -4,8 +4,14 @@ BASE_HOA = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-
+#chipmunks - "Dave"
 def add_character(show, name)
-  # Write your implementation here
-  # Should return the array of the 'show' argument
+  BASE_HOA[show] << name
+  
+  
+  # add_character[show] << name
+  # p show
+  # p name
+  # # Write your implementation here
+  # # Should return the array of the 'show' argument
 end
